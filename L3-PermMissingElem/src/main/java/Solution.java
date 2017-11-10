@@ -1,11 +1,11 @@
 
 public class Solution {
 
+    // Results:
+    // https://codility.com/demo/results/trainingWZQZ9H-G2M/
+
     // Source code with unit tests:
     // https://github.com/LeonardoBayona/codility/tree/master/L2-PermMissingElem
-
-    // Results:
-    //
 
     public int solution(int[] A) {
         return calculatePermMissingElem(A);
