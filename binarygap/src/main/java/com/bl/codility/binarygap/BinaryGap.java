@@ -2,6 +2,8 @@ package com.bl.codility.binarygap;
 
 public class BinaryGap {
 
+    // Results:
+    // https://codility.com/demo/results/trainingC6HSFK-KSS/
     public int calculateBinaryGap(int number) {
         int maxBinaryGap = 0;
         int lastOnePosition = -1;
