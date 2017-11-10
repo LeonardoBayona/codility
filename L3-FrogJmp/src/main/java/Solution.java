@@ -12,6 +12,6 @@ public class Solution {
     }
 
     public int calculateFrogJmp(int initialPosition, int targetPosition, int jumpDistance) {
-
+        return new Double(Math.ceil(1.0 * (targetPosition - initialPosition) / jumpDistance)).intValue();
     }
 }
