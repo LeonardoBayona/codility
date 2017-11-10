@@ -5,7 +5,7 @@ public class Solution {
     // https://github.com/LeonardoBayona/codility/tree/master/L2-CyclicRotation
 
     // Results:
-    //
+    // https://codility.com/demo/results/trainingYWESPR-3XD/
 
     public int[] solution(int[] A, int K) {
         return calculateCyclicRotation(A, K);
