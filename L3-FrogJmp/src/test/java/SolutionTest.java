@@ -6,15 +6,15 @@ public class SolutionTest {
 
     @Test
     public void test1() {
-        testSolution(new int[] { 2, 3, 4, 5 }, 1);
+        testSolution(10, 85, 30, 3);
     }
 
-    private void testSolution(int[] array, int expected) {
+    private void testSolution(int initialPosition, int targetPosition, int jumpDistance, int expected) {
         // given
         Solution solution = new Solution();
 
         // when
-        int response = solution.calculateFrogJmp(array);
+        int response = solution.calculateFrogJmp(initialPosition, targetPosition, jumpDistance);
 
         // then
         assertThat(response).isEqualTo(expected);

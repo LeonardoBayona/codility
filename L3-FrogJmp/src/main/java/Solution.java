@@ -7,11 +7,11 @@ public class Solution {
     // Source code with unit tests:
     // https://github.com/LeonardoBayona/codility/tree/master/L2-FrogJmp
 
-    public int solution(int[] A) {
-        return calculateFrogJmp(A);
+    public int solution(int X, int Y, int D) {
+        return calculateFrogJmp(X, Y, D);
     }
 
-    public int calculateFrogJmp(int[] array) {
+    public int calculateFrogJmp(int initialPosition, int targetPosition, int jumpDistance) {
 
     }
 }
