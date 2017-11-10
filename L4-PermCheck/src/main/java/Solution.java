@@ -8,10 +8,10 @@ public class Solution {
     // https://github.com/LeonardoBayona/codility/tree/master/L2-PermCheck
 
     public int solution(int[] A) {
-        return calculatePermCheck(A);
+        return calculatePermCheck(A) ? 1 : 0;
     }
 
-    public int calculatePermCheck(int[] array) {
+    public boolean calculatePermCheck(int[] array) {
     }
 
 }
