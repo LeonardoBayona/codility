@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class BinaryGapTest {
+public class SolutionTest {
 
     @Test
     public void test1() {
@@ -36,11 +36,11 @@ public class BinaryGapTest {
 
     private void testBinaryGap(int number, int expected) {
         // given
-        BinaryGap binaryGap = new BinaryGap();
+        Solution solution = new Solution();
 
         // when
-        int response1 = binaryGap.calculateBinaryGap(number);
-        int response2 = binaryGap.calculateBinaryGap2(number);
+        int response1 = solution.calculateBinaryGap(number);
+        int response2 = solution.calculateBinaryGap2(number);
 
         // then
         assertThat(response1).isEqualTo(expected);

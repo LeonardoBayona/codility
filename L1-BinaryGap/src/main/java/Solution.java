@@ -1,5 +1,5 @@
 
-public class BinaryGap {
+public class Solution {
 
     // Results:
     // https://codility.com/demo/results/trainingC6HSFK-KSS/
