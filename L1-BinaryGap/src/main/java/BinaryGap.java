@@ -1,4 +1,3 @@
-package com.bl.codility.binarygap;
 
 public class BinaryGap {
 

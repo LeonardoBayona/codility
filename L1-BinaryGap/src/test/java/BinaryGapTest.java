@@ -1,5 +1,3 @@
-package com.bl.codility.binarygap;
-
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
