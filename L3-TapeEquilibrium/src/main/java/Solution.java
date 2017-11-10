@@ -1,11 +1,11 @@
 
 public class Solution {
 
+    // Results:
+    // https://codility.com/demo/results/trainingUXQ2WS-U6D/
+
     // Source code with unit tests:
     // https://github.com/LeonardoBayona/codility/tree/master/L2-TapeEquilibrium
-
-    // Results:
-    //
 
     public int solution(int[] A) {
         return calculateTapeEquilibrium(A);
