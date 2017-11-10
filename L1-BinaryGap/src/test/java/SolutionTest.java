@@ -39,12 +39,10 @@ public class SolutionTest {
         Solution solution = new Solution();
 
         // when
-        int response1 = solution.calculateBinaryGap(number);
-        int response2 = solution.calculateBinaryGap2(number);
+        int response = solution.calculateBinaryGap(number);
 
         // then
-        assertThat(response1).isEqualTo(expected);
-        assertThat(response2).isEqualTo(expected);
+        assertThat(response).isEqualTo(expected);
     }
 
 }

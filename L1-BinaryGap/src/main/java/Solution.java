@@ -1,8 +1,12 @@
 
 public class Solution {
 
+    // Source code with unit tests:
+    // https://github.com/LeonardoBayona/codility/tree/master/L1-BinaryGap
+
     // Results:
     // https://codility.com/demo/results/trainingC6HSFK-KSS/
+
     public int calculateBinaryGap(int number) {
         int maxBinaryGap = 0;
         int lastOnePosition = -1;
