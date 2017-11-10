@@ -6,17 +6,17 @@ public class SolutionTest {
 
     @Test
     public void test1() {
-        testSolution(new int[] { 3, 8, 9, 7, 6 }, 3, new int[] { 9, 7, 6, 3, 8 });
+        testSolution(new int[] { 2, 3, 1, 5 }, 4);
 
 
     }
 
-    private void testSolution(int[] array, int shift, int[] expected) {
+    private void testSolution(int[] array, int expected) {
         // given
         Solution solution = new Solution();
 
         // when
-        int[] response = solution.calculatePermMissingElem(array, shift);
+        int response = solution.calculatePermMissingElem(array);
 
         // then
         assertThat(response).isEqualTo(expected);

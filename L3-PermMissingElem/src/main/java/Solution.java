@@ -7,11 +7,11 @@ public class Solution {
     // Results:
     //
 
-    public int[] solution(int[] A, int K) {
-        return calculatePermMissingElem(A, K);
+    public int solution(int[] A) {
+        return calculatePermMissingElem(A);
     }
 
-    public int[] calculatePermMissingElem(int[] array, int shift) {
+    public int calculatePermMissingElem(int[] array) {
 
     }
 }
