@@ -9,6 +9,17 @@ public class SolutionTest {
         testSolution(new int[] { 4, 1, 3, 2 }, true);
         testSolution(new int[] { 4, 1, 3 }, false);
 
+        testSolution(new int[] { 1 }, true);
+        testSolution(new int[] { 4 }, false);
+
+        testSolution(new int[] { 2, 1 }, true);
+        testSolution(new int[] { 4, 2 }, false);
+        testSolution(new int[] { 2, 2 }, false);
+
+        testSolution(new int[] { 2, 1, 3 }, true);
+        testSolution(new int[] { 4, 2, 1 }, false);
+        testSolution(new int[] { 4, 4, 1 }, false);
+        testSolution(new int[] { 1, 4, 1 }, false);
     }
 
     private void testSolution(int[] array, boolean expected) {
