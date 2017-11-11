@@ -10,6 +10,22 @@ public class SolutionTest {
         testSolution(new int[] { 1, 2, 3 }, 4);
         testSolution(new int[] { -1, -3 }, 1);
 
+        testSolution(new int[] { -1 }, 1);
+        testSolution(new int[] { 0 }, 1);
+        testSolution(new int[] { 1 }, 2);
+        testSolution(new int[] { 2 }, 1);
+
+        testSolution(new int[] { 1, 2 }, 3);
+        testSolution(new int[] { 1, 3 }, 2);
+        testSolution(new int[] { 2, 3 }, 1);
+
+        testSolution(new int[] { 1, 2, 3 }, 4);
+        testSolution(new int[] { -1, 2, 3 }, 1);
+        testSolution(new int[] { 1, -2, 3 }, 2);
+        testSolution(new int[] { 1, 2, -3 }, 3);
+
+        testSolution(new int[] { 1, 3, 5, 4, 1, 2 }, 6);
+        testSolution(new int[] { 1, 3, 5, 4, 1, -2 }, 2);
     }
 
     private void testSolution(int[] array, int expected) {
