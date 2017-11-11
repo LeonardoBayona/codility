@@ -8,10 +8,10 @@ public class Solution {
     // https://github.com/LeonardoBayona/codility/tree/master/L2-FrogRiverOne
 
     public int solution(int[] A) {
-        return calculateFrogRiverOne(A) ? 1 : 0;
+        return calculateFrogRiverOne(A);
     }
 
-    public boolean calculateFrogRiverOne(int[] array) {
+    public int calculateFrogRiverOne(int[] array) {
 
     }
 

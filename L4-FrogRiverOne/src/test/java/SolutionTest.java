@@ -6,16 +6,16 @@ public class SolutionTest {
 
     @Test
     public void test1() {
-        testSolution(new int[] { 4, 1, 3, 2 }, true);
+        testSolution(new int[] { 1, 3, 1, 4, 2, 3, 5, 4 }, 6);
 
     }
 
-    private void testSolution(int[] array, boolean expected) {
+    private void testSolution(int[] array, int expected) {
         // given
         Solution solution = new Solution();
 
         // when
-        boolean response = solution.calculateFrogRiverOne(array);
+        int response = solution.calculateFrogRiverOne(array);
 
         // then
         assertThat(response).isEqualTo(expected);
