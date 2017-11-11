@@ -2,7 +2,7 @@
 public class Solution {
 
     // Results:
-    //
+    // https://codility.com/demo/results/trainingGK7KZM-U4X/
 
     // Source code with unit tests:
     // https://github.com/LeonardoBayona/codility/tree/master/L2-MissingInteger
