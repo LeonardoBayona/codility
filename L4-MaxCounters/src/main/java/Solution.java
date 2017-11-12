@@ -1,10 +1,9 @@
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class Solution {
 
     // Results:
-    //
+    // https://codility.com/demo/results/trainingCTRWC3-6PK/
 
     // Source code with unit tests:
     // https://github.com/LeonardoBayona/codility/tree/master/L4-MaxCounters
