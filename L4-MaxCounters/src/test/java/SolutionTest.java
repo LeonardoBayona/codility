@@ -44,7 +44,7 @@ public class SolutionTest {
         Solution solution = new Solution();
 
         // when
-        int[] response = solution.calculateMaxCounters(numCounters, operations);
+        int[] response = solution.calculateMaxCounters2(numCounters, operations);
 
         // then
         assertThat(response).isEqualTo(expected);
