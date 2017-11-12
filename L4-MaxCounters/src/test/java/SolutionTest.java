@@ -6,17 +6,17 @@ public class SolutionTest {
 
     @Test
     public void test1() {
-        testSolution(3, new int[] { 3, 8, 9, 7, 6 }, new int[] { 9, 7, 6, 3, 8 });
+        testSolution(5, new int[] { 3, 4, 4, 6, 1, 4, 4 }, new int[] { 3, 2, 2, 4, 2 });
 
 
     }
 
-    private void testSolution(int shift, int[] array, int[] expected) {
+    private void testSolution(int numCounters, int[] operations, int[] expected) {
         // given
         Solution solution = new Solution();
 
         // when
-        int[] response = solution.calculateMaxCounters(shift, array);
+        int[] response = solution.calculateMaxCounters(numCounters, operations);
 
         // then
         assertThat(response).isEqualTo(expected);

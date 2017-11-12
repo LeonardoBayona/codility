@@ -11,7 +11,7 @@ public class Solution {
         return calculateMaxCounters(N, A);
     }
 
-    public int[] calculateMaxCounters(int shift, int[] array) {
+    public int[] calculateMaxCounters(int numCounters, int[] operations) {
 
 
 
