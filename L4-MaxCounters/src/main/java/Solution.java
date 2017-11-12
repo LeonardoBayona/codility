@@ -9,7 +9,7 @@ public class Solution {
         return calculateMaxCounters2(N, A);
     }
 
-    // <editor-fold desc="Solution 1">
+    // <editor-fold desc="Solution 1 (HashMap)">
 
     // Results:
     // https://codility.com/demo/results/trainingCTRWC3-6PK/
@@ -70,7 +70,10 @@ public class Solution {
 
     // </editor-fold>
 
-    // <editor-fold desc="Solution 2">
+    // <editor-fold desc="Solution 2 (Array)">
+
+    // Results:
+    // https://codility.com/demo/results/trainingZEW8ZB-H6Y/
 
     public int[] calculateMaxCounters2(int numCounters, int[] operations) {
         int finalBaseValue = 0;
